@@ -16,11 +16,12 @@ const Approach = () => {
 
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Planejamento e Estratégia"
+          icon={<AceternityIcon order="Fase 1" />}
+          des="Colaboraremos para mapear os objetivos, o público-alvo e as 
+          principais funcionalidades da sua aplicação. 
+          Discutiremos coisas como estrutura do site, 
+          navegação e requisitos de conteúdo."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -29,11 +30,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Atualização de Desenvolvimento e Progresso"
+          icon={<AceternityIcon order="Fase 2" />}
+          des="Assim que chegarmos a um acordo sobre o plano, eu mergulho na codificação. 
+          Dos esboços iniciais ao código refinado, mantenho você 
+          atualizado em cada etapa do processo."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -51,11 +52,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Desenvolvimento e Lançamento"
+          icon={<AceternityIcon order="Fase 3" />}
+          des="É aqui que a mágica acontece! Com base no design aprovado, 
+          traduzirei tudo em código funcional, construindo sua aplicação do zero."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -64,11 +65,19 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
-          backgroundColor: "rgba(17, 25, 40, 0.75)",
+          backgroundColor: "rgba(5, 7, 11, 0.75)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
+        <Image
+          src="/favicon.ico"
+          alt="Logo marca Giluan Souza"
+          width={32}
+          height={32}
+        />
+        <h1 className="text-xl font-bold text-neutral-50">Giluan Souza</h1>
+        {/* add a link for each nav item */}
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}

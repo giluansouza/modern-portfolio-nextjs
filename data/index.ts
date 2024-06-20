@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Sobre", link: "#about" },
+  { name: "Projetos", link: "#projects" },
+  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Contato", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Priorizo a colaboração do cliente, promovendo a comunicação aberta ",
+    title: "Priorizo a colaboração com o cliente, promovendo uma comunicação aberta ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Stack de tecnologias",
-    description: "Sempre tentando melhorar",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -50,7 +50,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Atualmente construindo um SaaS multi-tenant",
-    description: "Informações internas",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "GStracker - Traccar",
+    des: "Implementação de Traccar Server e aplicativo web moderno.",
+    img: "/gstracker-project.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://gstracker.giluansouza.com.br",
+  },
+  {
+    id: 10,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
@@ -80,11 +88,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "SIAGEO - Análise e Geoprocessamento",
+    des: "Sistema web de análise de dados e geoprocessamento de informações e densidade kernel.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "#",
   },
   {
     id: 3,
@@ -173,29 +181,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Desenvolvedor Fullstack",
+    desc: "Desenvolvedor líder de uma plataforma web utilizando JavaScript e PHP.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Desenvolvedor Mobile",
+    desc: "Liderei o desenvolvimento de um aplicativo mobile para um cliente, desde o conceito inicial até a implantação nas lojas de aplicativos..",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance App Dev",
+    desc: "Vários serviços de freelancer para diversos clientes, desde correções, novos projetos e manutenção.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Desenvolvedor Frontend Líder",
+    desc: "Desenvolvimento e manutenção de recursos voltados ao usuário usando tecnologias front-end modernas.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/giluansouza",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/opropriogs",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "#",
   },
 ];
